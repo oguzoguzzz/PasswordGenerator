@@ -2,7 +2,7 @@ import random
 import string
 
 def generate_password(length,complexity):
-    """ Generate a random password of specified length and complexity."""
+    """ Generate a random password."""
     
     # Define character sets for each complexity level
 
@@ -26,5 +26,5 @@ def generate_password(length,complexity):
     return password
 
 # Example usage
-password = generate_password(12,"medium")
+password = generate_password(8,"")
 print(password)
